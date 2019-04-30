@@ -1,0 +1,14 @@
+
+.grid{
+	width: 100%;
+	display: flex;
+ 	flex-wrap: wrap;
+  	justify-content: flex-start;
+  	padding-left: 20px;
+}
+@media (max-width: 768px){
+ 	.grid{
+      justify-content: center;
+      padding-left: 0px;
+  }
+}
